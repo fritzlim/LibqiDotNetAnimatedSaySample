@@ -20,7 +20,7 @@ namespace TestAnimatedSay
             var session = QiSession.Create(address);
 
 
-            //AnimatedSay::sayに渡す典型的なannotated text
+            //ALAnimatedSpeech::sayに渡す典型的なannotated text
             var text = new QiString(
                 "^start(animation/Stand/Gestures/Hey_1) " + 
                 "Hello, this is a typical sample sentence for animated say module, to check some autonomous motion suited for the conversation " +
