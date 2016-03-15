@@ -2,9 +2,10 @@
 
 
 Baku
-2016/Mar/14
+2016/Mar/15
 
-1. About / How to use
+1. About
+2. How to use
 3. License
 4. Contact
 
@@ -16,7 +17,14 @@ Baku
 
 とある方から`Baku.LibqiDotNet`(NuGetパッケージのver1.0.1)の動作不具合に関するご質問を頂いたため、回答というか回避策の紹介を目的に公開しました。
 
-使い方については`Baku.LibqiDotNet`の利用法を把握していれば`Program.cs`の内容で十分伝わるハズなので詳細は記載しません。
+
+## How to use
+
+`Baku.LibqiDotNet`の使い方が分かっている前提で作ってるレポジトリであるため、最低限のサンプルコードだけを配置しています。使用しているBaku.LibqiDotNetのバージョンに応じて使い分けて下さい。
+
+- ver1.0.1/1.0.0を使ってる場合: `Program_for_v1.cs`がサンプルです。回避策が具体的に載ってます。
+- ver2.0.0以降を使ってる場合: `Program_for_v2.cs`がサンプルです。回避策が不要になってるのでコードはかなり小さいです。
+
 
 
 ## License
